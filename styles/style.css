@@ -148,6 +148,47 @@
 .message-img{
     margin-right: 10px;
 }
+
+/* about section */
+.about{
+    color: #ffffff;
+    background-color: #1A0B2E;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 200px;
+}
+.about-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-content p{
+    margin-bottom: 8px;
+}
+.about-content .join-paragraph{
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    padding: 80px 0px 120px 0px;
+    text-align: center;
+    margin: 0px 200px;
+    border-top: 1px solid #303030;
+}
+.about-card-content h1{
+    color: #00FF88;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
@@ -168,5 +209,15 @@
         width: 80px;
         height: 120px;
     }
+
+    /* about */
+    .about-content{
+        padding: 80px 50px;
+    }
+    .about-card{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px 50px;
+    }
+    
     
 }
