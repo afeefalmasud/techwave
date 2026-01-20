@@ -156,7 +156,7 @@
     margin-bottom: 15px;
 }
 .intro-paragraph{
-    color: #ffffff;
+    color: #adadad;
     text-align: center;
     font-size: 1rem;
     margin-bottom: 35px;
@@ -212,6 +212,7 @@
 }
 .about-content p{
     margin-bottom: 8px;
+    color: #adadad;
 }
 .about-content .join-paragraph{
     margin-top: 32px;
@@ -262,6 +263,9 @@
     margin: 16px 0px;
     font-weight: 700;
     font-size: 1.5rem;
+}
+.grid-content p{
+    color: #adadad;
 }
 .content1{
     grid-row-start: 1;
@@ -330,6 +334,7 @@
 }
 .podcast-card-content p{
     margin: 0px 24px 24px 24px;
+    color: #adadad;
 }
 .clock{
     display: flex;
@@ -375,6 +380,7 @@
 }
 .host-content p{
     margin-bottom: 16px;
+    color: #adadad;
 }
 .host-links{
     display: flex;
@@ -427,15 +433,18 @@ footer{
     margin: 32px 0px;
     cursor: pointer;
 }
+#copyright{
+    color: #adadad;
+}
 .spotify-link,.apple-link,.yt-link,.twitter-link{
     display: flex;
     gap: 8px;
+    color: #ffffff;
     transition: all 0.3s ease;
 }
 .spotify-link:hover,.apple-link:hover,.yt-link:hover,.twitter-link:hover{
     color: #00FF88;
 }
-
 
 /* responsive for small device */
 
@@ -480,7 +489,7 @@ footer{
     }
     .intro{
         margin-top: 12em;
-        margin: 12em 5em;
+        margin: 12em 1em;
         text-align: center;
     }
 
@@ -517,7 +526,7 @@ footer{
     /* podcast section */
 
     .podcast{
-        padding: 60px 20px;
+        padding: 60px 40px;
     }
     .podcast h2{
         font-size: 2.5rem;
@@ -527,16 +536,16 @@ footer{
         gap: 25px;
     }
     .podcast-card-content{
-        width: 400px;
+        width: 350px;
     }
     .podcast-card iframe{
-        width: 400px;
+        width: 350px;
     }
 
     /* host */
 
     .host{
-        padding: 60px 50px;
+        padding: 60px 30px;
     }
     .host h2{
         font-size: 2.5rem;
@@ -553,7 +562,7 @@ footer{
     }
 
     /* footer */
-
+    
     .footer-content h1{
         font-size: 3rem;
     }
